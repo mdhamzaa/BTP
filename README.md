@@ -3,10 +3,10 @@
 # Introduction
 This project explores various machine learning algorithms to analyze and classify network traffic data from the NSL-KDD Network Intrusion Detection Dataset. The dataset contains labeled network connections, classifying them as normal or one of several attack types. This project aims to build accurate and efficient models for intrusion detection using different techniques and compare their performance.
 
-#Dataset Description
+# Dataset Description
 The NSL-KDD dataset consists of several CSV files containing network traffic information for individual connections. Each record includes features like duration, protocol type, service, flag, source and destination bytes, number of failed logins, root shell attempts, and others. The target variable is the attack type, with "normal" being the majority class and various attack categories like DoS, Probe, U2R, and R2L constituting the minority classes.
 
-#Data Preprocessing
+# Data Preprocessing
 Before applying machine learning models, the data underwent several preprocessing steps:
 
 Missing value imputation: Missing values were filled using the mean or median of their respective features.
@@ -35,18 +35,18 @@ Recall: Proportion of actual positive instances correctly identified.
 F1-score: Harmonic mean of precision and recall.
 Classification report: Detailed analysis of the model's performance for each class.
 
-##Results
+## Results
 The results of each model are presented in the code, including accuracy, precision, recall, F1-score, and classification reports. The best performing models were:
 
 Random Forest: High overall accuracy and balanced performance across all classes.
 Ensemble Voting Classifier: Combining KNN, Extra Trees, and SVM yielded improved accuracy and robustness compared to individual models.
 
-#Conclusion
+# Conclusion
 This project demonstrated the effectiveness of various machine learning models for network intrusion detection using the NSL-KDD dataset. The results highlight the importance of choosing the right model based on the specific dataset characteristics and performance priorities. Further research could explore additional models, ensemble methods, and optimization techniques for improved intrusion detection accuracy and efficiency.
 
-#Future Work
+# Future Work
 Explore deep learning models like convolutional neural networks (CNNs) and recurrent neural networks (RNNs) for analyzing network traffic data.
 Develop real-time intrusion detection systems using the trained models.
 Apply these techniques to other network intrusion detection datasets.
-Acknowledgments
+# Acknowledgments
 This project was inspired by various online resources and tutorials on machine learning and network intrusion detection. Special thanks to the creators of the NSL-KDD dataset for providing valuable data for research and development.
