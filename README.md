@@ -1,6 +1,6 @@
 # BTP
 ### NSL-KDD Network Intrusion Detection Dataset Analysis
-#Introduction
+# Introduction
 This project explores various machine learning algorithms to analyze and classify network traffic data from the NSL-KDD Network Intrusion Detection Dataset. The dataset contains labeled network connections, classifying them as normal or one of several attack types. This project aims to build accurate and efficient models for intrusion detection using different techniques and compare their performance.
 
 #Dataset Description
